@@ -227,7 +227,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `${ucapan()}
-𝗔𝗹𝗹𝗼 𝗠𝘆𝗽𝗿𝗲𝗻👋, ${name}`.trim(),
+Hi 👋, ${name}`.trim(),
           "description": `
 ┏━━〔 𝙎 𝙏 𝘼 𝙏 𝙐 𝙎 〕━֍
 ┃⬣ Aktif selama *${uptime}*
@@ -239,10 +239,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬣ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━━━━━━━━━━━━━━֍
 ┏━━〔 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 𝙊𝙒𝙉𝙀𝙍 〕━֍
-┃⬣ IG : instagram.com/mhdfakri_
-┃⬣ YT : youtube.com/c/HokenBeusz
-┃⬣ TT : tiktok.com/@unfaedahkan
-┃⬣ FB : facebook.com/mhdfakri1999
+┃⬣ IG : instagram.com/iky_alwaysgood
+┃⬣ YT : belum ada 
+┃⬣ TT : tiktok.com/@iky_reallysad
+┃⬣ FB : gak main Facebook 
 ┃⬣ 𝘿𝙊𝙉'𝙏 𝙁𝙊𝙍𝙂𝙀𝙏 𝙏𝙊 𝙁𝙊𝙇𝙇𝙊𝙒𝙄𝙉𝙂!
 ┗━━━━━━━━━━━━━━֍`.trim(),
                         "footerText": "𝘑𝘪𝘬𝘢 𝘮𝘦𝘯𝘦𝘮𝘶𝘬𝘢𝘯 𝘣𝘶𝘨 𝘥𝘢𝘭𝘢𝘮 𝘱𝘦𝘯𝘨𝘨𝘶𝘯𝘢𝘢𝘯\n𝘚𝘪𝘭𝘢𝘩𝘬𝘢𝘯 𝘭𝘢𝘱𝘰𝘳𝘬𝘢𝘯 𝘰𝘳 𝘵𝘢𝘯𝘺𝘢𝘬𝘢𝘯 𝘬𝘦𝘱𝘢𝘥𝘢 𝙊𝙬𝙣𝙚𝙧",
@@ -253,119 +253,119 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 
                                 "rows": [{
                                     "title": `[ ☇ ] ꜱ ᴇ ᴍ ᴜ ᴀ  ᴘ ᴇ ʀ ɪ ɴ ᴛ ᴀ ʜༀ`,
-									"description": "✓ 𝙈𝙚𝙢𝙗𝙚𝙧𝙞𝙠𝙖𝙣 𝙎𝙚𝙢𝙪𝙖 𝙁𝙞𝙩𝙪𝙧 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙢𝙗𝙚𝙧𝙞𝙠𝙖𝙣 𝙎𝙚𝙢𝙪𝙖 𝙁𝙞𝙩𝙪𝙧 Kιɳα Bσƚ",
 									"rowId": ".? all"
 								}, {
 									"title": "[ ☇ ] ɪ ꜱ ʟ ᴀ ᴍༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙄𝙨𝙡𝙖𝙢 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙄𝙨𝙡𝙖𝙢 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? quran"
 								}, {
 									"title": "[ ☇ ] ᴇ ᴅ ᴜ ᴋ ᴀ ꜱ ɪༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙀𝙙𝙪𝙠𝙖𝙨𝙞 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙀𝙙𝙪𝙠𝙖𝙨𝙞 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? edukasi"
 								}, {
 									"title": "[ ☇ ] ɴ ᴇ ᴡ ꜱༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘽𝙚𝙧𝙞𝙩𝙖 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘽𝙚𝙧𝙞𝙩𝙖 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? News"
 								},  {
 									"title": "[ ☇ ] ɢ ᴀ ᴍ ᴇༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙖𝙢𝙚 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙖𝙢𝙚 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? game"
 								}, {
 									"title": "[ ☇ ] ᴇ ᴘ ɪ ᴄ  ʀ ᴘ ɢༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙖𝙢𝙚 𝙍𝙋𝙂 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙖𝙢𝙚 𝙍𝙋𝙂 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? rpg"
 								}, {
 									"title": "[ ☇ ] x ᴘༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙓𝙋 𝘿𝙖𝙣 𝙇𝙚𝙫𝙚𝙡 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙓𝙋 𝘿𝙖𝙣 𝙇𝙚𝙫𝙚𝙡 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? xp"
 								},  {
 									"title": "[ ☇ ] ɴ ꜱ ꜰ ᴡༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘼𝙨𝙪𝙥𝙖𝙣 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘼𝙨𝙪𝙥𝙖𝙣 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? nsfw"
 								}, {
 									"title": "[ ☇ ] ʀ ᴀ ɴ ᴅ ᴏ ᴍ  ɪ ᴍ ᴀ ɢ ᴇༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙁𝙤𝙩𝙤 𝙍𝙖𝙣𝙙𝙤𝙢 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙁𝙤𝙩𝙤 𝙍𝙖𝙣𝙙𝙤𝙢 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? image"
 							}, {
 									"title": "[ ☇ ] ꜱ ᴛ ɪ ᴋ ᴇ ʀༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘽𝙪𝙖𝙩 𝙎𝙩𝙞𝙠𝙚𝙧 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘽𝙪𝙖𝙩 𝙎𝙩𝙞𝙠𝙚𝙧 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? stiker"
 								}, {
 									"title": "[ ☇ ] ᴋ ᴇ ʀ ᴀ ɴ ɢ  ᴀ ᴊ ᴀ ɪ ʙༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙈𝙚𝙣𝙪𝙧𝙪𝙩 𝙆𝙚𝙧𝙖𝙣𝙜 𝙖𝙟𝙖𝙞𝙗 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙈𝙚𝙣𝙪𝙧𝙪𝙩 𝙆𝙚𝙧𝙖𝙣𝙜 𝙖𝙟𝙖𝙞𝙗 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? kerangajaib"
 								}, {
 									"title": "[ ☇ ] Q ᴜ ᴏ ᴛ ᴇ ꜱༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙌𝙪𝙤𝙩𝙚𝙨 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙌𝙪𝙤𝙩𝙚𝙨 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? quotes"
 								}, {
 									"title": "[ ☇ ] ᴀ ᴅ ᴍ ɪ ɴༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘼𝙙𝙢𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘼𝙙𝙢𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? admin"
 								}, {
 									"title": "[ ☇ ] ɢ ʀ ᴜ ᴘༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙧𝙤𝙪𝙥 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙂𝙧𝙤𝙪𝙥 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? grup"
 								}, {
 									"title": "[ ☇ ] ᴘ ʀ ᴇ ᴍ ɪ ᴜ ᴍༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙐𝙣𝙩𝙪𝙠 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙐𝙣𝙩𝙪𝙠 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? premium"
 								}, {
 									"title": "[ ☇ ] ɪ ɴ ᴛ ᴇ ʀ ɴ ᴇ ᴛༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙖𝙧𝙞 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙖𝙧𝙞 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? internet"
 								}, {
 									"title": "[ ☇ ] ᴀ ɴ ᴏ ɴ ʏ ᴍ ᴏ ᴜ ꜱༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙈𝙖𝙞𝙣𝙠𝙖𝙣 𝘼𝙣𝙤𝙣𝙮𝙢𝙤𝙪𝙨 𝘾𝙝𝙖𝙩 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙈𝙖𝙞𝙣𝙠𝙖𝙣 𝘼𝙣𝙤𝙣𝙮𝙢𝙤𝙪𝙨 𝘾𝙝𝙖𝙩 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? anonymous"
 								}, {
 									"title": "[ ☇ ] ɴ ᴜ ʟ ɪ ꜱ  &  ʟ ᴏ ɢ ᴏༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙉𝙪𝙡𝙞𝙨 & 𝙇𝙤𝙜𝙤 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙉𝙪𝙡𝙞𝙨 & 𝙇𝙤𝙜𝙤 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? nulis"
 								}, {
 									"title": "[ ☇ ] ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ ᴇ ʀༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? downloader"
 								}, {
 									"title": "[ ☇ ] ᴛ ᴏ ᴏ ʟ ꜱༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙤𝙤𝙡𝙨 𝙔𝙖𝙣𝙜 𝘽𝙞𝙨𝙖 𝙙𝙞 𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙏𝙤𝙤𝙡𝙨 𝙔𝙖𝙣𝙜 𝘽𝙞𝙨𝙖 𝙙𝙞 𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? tools"
 								}, {
 									"title": "[ ☇ ] ꜰ ᴜ ɴༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙚𝙧𝙞𝙖 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙚𝙧𝙞𝙖 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? fun"
 								}, {
 									"title": "[ ☇ ] ᴅ ᴀ ᴛ ᴀ ʙ ᴀ ꜱ ᴇༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙎𝙞𝙢𝙥𝙖𝙣 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙎𝙞𝙢𝙥𝙖𝙣 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? database"
 								}, {
 									"title": "[ ☇ ] ᴠ ᴏ ᴛ ᴇ  &  ᴀ ʙ ꜱ ᴇ ɴༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙑𝙤𝙩𝙚 & 𝘼𝙗𝙨𝙚𝙣 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙑𝙤𝙩𝙚 & 𝘼𝙗𝙨𝙚𝙣 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? vote"
 								}, {
 									"title": "[ ☇ ] ᴘ ᴇ ɴ ɢ ᴜ ʙ ᴀ ʜ  ꜱ ᴜ ᴀ ʀ ᴀༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙐𝙗𝙖𝙝 𝙎𝙪𝙖𝙧𝙖 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙐𝙗𝙖𝙝 𝙎𝙪𝙖𝙧𝙖 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? audio"
 								}, {
 									"title": "[ ☇ ] ᴊ ᴀ ᴅ ɪ  ʙ ᴏ ᴛༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙅𝙖𝙙𝙞 𝘽𝙤𝙩 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙅𝙖𝙙𝙞 𝘽𝙤𝙩 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? jadibot"
 								}, {
 									"title": "[ ☇ ] ᴀ ɴ ɪ ᴍ ᴇༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙖𝙧𝙞 𝘼𝙣𝙞𝙢𝙚 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝘾𝙖𝙧𝙞 𝘼𝙣𝙞𝙢𝙚 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? anime"
 								}, {
 									"title": "[ ☇ ] ɪ ɴ ꜰ ᴏༀ",
-									"description": "✓ 𝙄𝙣𝙛𝙤 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙄𝙣𝙛𝙤 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 Kιɳα Bσƚ",
 									"rowId": ".? info"
 								}, {
 									"title": "[ ☇ ] ᴛ ᴀ ɴ ᴘ ᴀ  ᴋ ᴀ ᴛ ᴇ ɢ ᴏ ʀ ɪༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙠𝙤𝙨𝙤𝙣𝙜 𝘿𝙞 𝘽𝙤𝙩ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙠𝙤𝙨𝙤𝙣𝙜 𝘿𝙞 Kιɳα Bσƚ",
 									"rowId": ".? tanpakategori"
 								}, {
 									"title": "[ ☇ ] ᴏ ᴡ ɴ ᴇ ʀༀ",
-									"description": "✓ 𝙈𝙚𝙣𝙪 𝙆𝙝𝙪𝙨𝙪𝙨 𝙊𝙬𝙣𝙚𝙧ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×",
+									"description": "✓ 𝙈𝙚𝙣𝙪 𝙆𝙝𝙪𝙨𝙪𝙨 𝙊𝙬𝙣𝙚𝙧 Kιɳα Bσƚ",
 									"rowId": ".? owner"
                                 }],
                                 "title": "──────────────❲  ᗩᒪᒪ ᗰEᑎᑌ  ❳──────────────"
