@@ -35,7 +35,7 @@ const defaultMenu = {
   header: '╭─֍ 〔 %category 〕 ֍─',
   body: '┃⬡ %cmd %islimit %isPremium',
   footer: '╰────────֍\n',
-  footerText:'𝙆𝙧𝙞𝙯𝙮𝙣 ×͜×', 
+  footerText:'Kιɳα Bσƚ', 
   after: `${namabot}
 `,
 }
