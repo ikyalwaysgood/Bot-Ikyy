@@ -5,7 +5,7 @@ let path = require('path')
 let moment = require('moment-timezone')
 let fetch = require('node-fetch')
 let handler = async(m, { conn }) => {
-  await m.reply('⏳𝙎𝘼𝘽𝘼𝙍 𝘿𝙄 𝙀𝙒𝙀 𝘿𝙐𝙇𝙐...')
+  await m.reply('⏳𝙎𝘼𝘽𝘼𝙍...')
     let kontol = `
 
 ╭─❒ 〘 𝗕 𝗢 𝗧   𝗜 𝗡 𝗙 𝗢 〙 
