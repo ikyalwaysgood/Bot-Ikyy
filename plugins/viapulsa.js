@@ -22,7 +22,7 @@ let handler = async (m, { conn }) => {
 ╠➥ *DAN 200 LEBIH*
 ║   *FITUR LAINNYA*
 ║ 
-╠═ ©202 Kιɳα Bσƚ
+╠═ ©2024 Kιɳα Bσƚ
 ╠═ Iky Official
 ╠═〘 ${namabot} 〙 ═`.trim(), m)
 }
