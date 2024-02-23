@@ -577,8 +577,8 @@ global.dfail = (type, m, conn) => {
     private: '*Di pc aja yuk sayang!*',
     admin: '⚠️Emangnya lu *ADMIN* grup ya tod!',
     nsfw: 'cuma bisa diaktifkan sama dia @${global.kontak[0].split`@`[0]}',
-    botAdmin: '⚠️*Naikin dulu dong BOT nya,*\n*Masa iya bot di ewe gak di naikin pangkatnya*!🤪',
-   unreg: `Daftar Dulu dek biar bisa pakai fitur lain nya\n\ncaranya ketik:\n*#daftar nama.umur*\n\nContoh: #daftar ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×.22`
+    botAdmin: '⚠️*Jadikan Admin dong BOT nya,*\n*Masa iya bot di pake gak di naikin pangkatnya*!🤪',
+   unreg: `Daftar Dulu dek biar bisa pakai fitur lain nya\n\ncaranya ketik:\n*#daftar nama.umur*\n\nContoh: #daftar Kιɳα Bσƚ.19`
   }[type]
   if (msg) return m.reply(msg)
 }
