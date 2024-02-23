@@ -4,7 +4,7 @@
 
 ## <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Kιɳα Bσƚ | Iky𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑ཽ
 
-## FOR TERMUX/UBUNTU/WINDOWS/VPS/RDP USER
+## FOR WINDOWS/VPS/RDP USER
 
 ```bash
 apt update && apt upgrade
