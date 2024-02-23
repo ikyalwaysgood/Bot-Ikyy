@@ -1,6 +1,6 @@
  {
 
-  "name": "krizyn",
+  "name": "Bot-Ikyy",
 
   "version": "2.5.1",
 
@@ -45,11 +45,11 @@
 
   ],
 
-  "homepage": "https://github.com/frostkri/krizyn",
+  "homepage": "https://github.com/ikyalwaysgood/Bot-Ikyy",
 
   "author": {
 
-    "name": "krizyn"
+    "name": "Iky Official"
 
   },
 
@@ -57,13 +57,13 @@
 
     "type": "git",
 
-    "url": "git+https://github.com/frostkri/krizyn.git"
+    "url": "git+https://github.com/ikyalwaysgood/Bot-Ikyy.git"
 
   },
 
   "bugs": {
 
-    "url": "https://github.com/frostkri/krizyn/issues"
+    "url": "https://github.com/ikyalwaysgood/Bot-Ikyy/issues"
 
   },
 
