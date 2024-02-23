@@ -1,20 +1,7 @@
-// Bismillahirrahmanirrahim
-// thank you to ALLAH Swt
-// thank you to Nurutomo as wabot-aq
-// thank you to ariffb as stikerinbot
-// thank you to botstylee
-// thank you to bochilgaming as games-wabot
-// thank you to benni ismael
-// thank you to zerochanBot
-// thank you to fernazer
-// thank you to MikeBot Dev Team
-// thank you to ALL Bot creator
-// and thanks you to who support my Bot
-
-gc1 = 'https://instagram.com/mhdfakri_'
+gc1 = 'https://instagram.com/iky_alwaysgood'
 gc2 = 'https://www.youtube.com/c/HokenBeusz'
 gc3 = 'https://vt.tiktok.com/ZSeCJHbfA/'
-global.linkGC = ['https://chat.whatsapp.com/KTUF5TbtlWu4vOFnlDqCwg', ''] // ganti jadi group lu
+global.linkGC = ['https://chat.whatsapp.com/GbNiwLK3R9y4pOUFDW5eAQ', ''] // ganti jadi group lu
 global.owner = ['6285794908894'] // Put your number here //owner eval
 global.kontak = ['6285794908894'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
@@ -86,8 +73,8 @@ global.eror = '❗𝙎𝙚𝙧𝙫𝙚𝙧 𝙀𝙧𝙧𝙤𝙧...'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = 'Kιɳα Bσƚ' //change the watermark 
-global.image = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg' //change the image
-global.thumbfoto = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg'
+global.image = 'https://btch.pages.dev/file/9e4162d4034241953fdfb.jpg' //change the image
+global.thumbfoto = 'https://btch.pages.dev/file/9e4162d4034241953fdfb.jpg'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
