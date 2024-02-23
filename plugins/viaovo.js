@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
 	conn.reply(m.chat, `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via OVO
 ╠➥ Ke nomer ini
-║➥ *TANYA KE OWNER*
+║➥ *Belum Tersedia*
 ║
 ╠═〘 Fitur 〙 ═
 ║
@@ -22,8 +22,8 @@ let handler = async (m, { conn }) => {
 ╠➥ *DAN 200 LEBIH*
 ║   *FITUR LAINNYA*
 ║ 
-╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
+╠═ ©2024 Kιɳα Bσƚ
+╠═ Iky Official
 ╠═〘 ${namabot} 〙 ═`.trim(), m)
 }
 
