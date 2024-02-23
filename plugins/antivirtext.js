@@ -5,14 +5,14 @@ let handler = async function(m, { conn , args, text, isAdmin, isBotAdmin, groupM
   let asu = m.sender
   let vir = asu.split("@s.whatsapp.net")[0]
   if (!m.isGroup) { 
-    await m.reply('_BAPAK LO JAGOAN MANA ANJING !?!?_')
+    await m.reply('_Astaghfirulla :)_')
     conn.blockUser(m.sender, "add")
   } else {
-  	if (isAdmin) return m.reply('*ADMIN KONTOL!*')
+  	if (isAdmin) return m.reply('*ADMIN THAI!*')
     await conn.reply(m.chat, `
 *[ CHAT ANTI VIRTEX ]*
 _Terdeteksi *@${asu.split("@")[0]}* telah mengirim virtex!_
-Maaf Kamu akan dikick oleh *MIKE BOT*
+Maaf Kamu akan dikick oleh *Kιɳα Bσƚ*
 `.trim(), m, { 
       contextInfo: {  
         mentionedJid: [asu]
