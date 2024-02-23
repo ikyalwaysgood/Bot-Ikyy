@@ -8,7 +8,7 @@ const defaultMenu = {
   before: `
 ╭───◪ 〔 ${namabot} 〕 
 ⬡ ${ucapan()}
-⬡ Allo mypren👋
+⬡ Hi 👋
 ╰────────⬣
 ╭───◪ 〔  𝙇 𝙄 𝙈 𝙄 𝙏  〕
 ┃⬡ Tersisa *%limit Limit*
