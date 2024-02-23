@@ -496,7 +496,7 @@ Hi 👋, ${name}`.trim(),
     throw e
   }
 }
-handler.help = ['kri', 'menu', 'help']
+handler.help = ['menu', 'help']
 handler.tags = ['main']
 handler.command = /^(\?|menu|help)$/i
 
