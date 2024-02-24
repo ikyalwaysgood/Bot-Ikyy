@@ -1,6 +1,6 @@
 gc1 = 'https://instagram.com/iky_alwaysgood'
-gc2 = 'https://www.youtube.com/c/HokenBeusz'
-gc3 = 'https://vt.tiktok.com/ZSeCJHbfA/'
+gc2 = '!'
+gc3 = '!'
 global.linkGC = ['https://chat.whatsapp.com/GbNiwLK3R9y4pOUFDW5eAQ', ''] // ganti jadi group lu
 global.owner = ['6285794908894'] // Put your number here //owner eval
 global.kontak = ['6285794908894'] //Ketika ada yang ngetik #owner
