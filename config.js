@@ -4,7 +4,7 @@ gc3 = '!'
 global.linkGC = ['https://chat.whatsapp.com/GbNiwLK3R9y4pOUFDW5eAQ', ''] // ganti jadi group lu
 global.owner = ['6285794908894'] // Put your number here //owner eval
 global.kontak = ['6285794908894'] //Ketika ada yang ngetik #owner
-global.mods = ['0'] // Want some help?
+global.mods = ['6285794908894'] // Want some help?
 global.prems = ['6285794908894'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
